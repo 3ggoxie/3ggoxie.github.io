@@ -6,4 +6,8 @@ import mdx from '@astrojs/mdx';
 export default defineConfig({
     integrations: [mdx()],
     site: 'https://3ggoxie.github.io',
+    markdown: {
+        gfm: true, // 启用 GFM 支持
+       
+      },
 });
